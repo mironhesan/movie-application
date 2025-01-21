@@ -8,28 +8,28 @@ import Bookmark from "./pages/bookmark";
 
 export const router = createBrowserRouter([
   {
-    path: "/movie-application",
+    path: "/",
     element: <Login />,
     errorElement: <Error />,
   },
   {
     path: "/home",
     element: <Home />,
-    errorElement: <Error />,
+    errorElement: <Error />
   },
   {
     path: "/movies",
     element: <Movie />,
-    errorElement: <Error />,
+    errorElement: <Error />
   },
   {
     path: "/tv-series",
     element: <TvSeries />,
-    errorElement: <Error />,
+    errorElement: <Error />
   },
   {
     path: "/bookmarks",
     element: <Bookmark />,
-    errorElement: <Error />,
+    errorElement: <Error />
   },
 ]);
