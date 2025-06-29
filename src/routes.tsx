@@ -18,6 +18,11 @@ export const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
+    path: "/login",
+    element: <Login />,
+    errorElement: <Error />,
+  },
+  {
     path: "/movies",
     element: <Movie />,
     errorElement: <Error />

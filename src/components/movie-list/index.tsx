@@ -1,12 +1,11 @@
 import { Grid, Paper } from "@mui/material";
 import React from "react";
 import { MovieDataType } from "../../assets/data";
-import MovieCard from "../movie-card";
+import MovieCard from "../movie-card";  
 
 interface MovieListProps {
   recommendList: MovieDataType[];
 }
-
 const MovieList = ({ recommendList }: MovieListProps) => {
   console.log("The recommendList is : ", recommendList);
   return (

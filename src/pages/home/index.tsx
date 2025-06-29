@@ -23,6 +23,7 @@ const Home = () => {
 
   const handleSearch = (e: { target: { value: SetStateAction<string> } }) => {
     setSearch(e.target.value);
+    
     const newList = movies.filter((movie) =>
       movie.title.toLowerCase().includes(search.toLowerCase())
     );
@@ -65,6 +66,7 @@ const Home = () => {
           />
         </Paper>
       </Box>
+
       <Box py={2} px={4}>
         {search === "" ? (
           <Box width="100%">
@@ -74,6 +76,7 @@ const Home = () => {
               </Typography>
               <MovieTrendList trendingList={trendingList} />
             </Box>
+            
             <Box width="100%">
               <Typography variant="h5" component="h1" my={6} fontWeight={400}>
                 Recommended For You

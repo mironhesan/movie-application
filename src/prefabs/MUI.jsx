@@ -46,8 +46,7 @@ import {
 // Icons
 import Add from "@mui/icons-material/Add";
 
-/* Layout
-     ------ */
+// layout
 export const _Box = () => <Box />;
 
 export const _Container = () => <Container />;
@@ -82,9 +81,7 @@ export const _ImageList = () => (
   </ImageList>
 );
 
-/* Inputs
-     ------ */
-
+// inputs
 export const _Autocomplete = () => (
   <Autocomplete
     id="free-solo-demo"
@@ -170,7 +167,6 @@ export const _ToggleButtonGroup = () => (
 );
 
 // Display Data
-
 export const _Avatar = () => <Avatar>Aa</Avatar>;
 
 export const _Avatar_image = () => (
@@ -215,9 +211,7 @@ export const _Typography_body = () => (
   <Typography variant="body1">Body</Typography>
 );
 
-/* Feedback
-     -------- */
-
+// feedback
 export const _Alert = () => <Alert severity="warning">Alert</Alert>;
 
 export const _Alert_with_title = () => (

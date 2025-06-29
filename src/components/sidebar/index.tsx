@@ -14,7 +14,7 @@ const navLinks = [
   {
     name: "Login",
     icon: homeIcon,
-    link: "/",
+    link: "/login",
   },
   {
     name: "Movies",
@@ -78,7 +78,7 @@ const Sidebar = () => {
             fontWeight={400}
             fontSize={18}
           >
-            PikaShowApp
+            Movie App
           </Typography>
         </Hidden>
 
@@ -123,6 +123,7 @@ const Sidebar = () => {
                     }`,
                   }}
                 />
+                
                 <Hidden mdDown>
                   <Typography>{item.name}</Typography>
                 </Hidden>
