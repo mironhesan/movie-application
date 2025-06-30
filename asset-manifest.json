@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mironhesan.github.io/movie-application/static/css/main.b9132520.css",
+    "main.js": "/mironhesan.github.io/movie-application/static/js/main.19a17d7b.js",
+    "static/js/787.66ff4c90.chunk.js": "/mironhesan.github.io/movie-application/static/js/787.66ff4c90.chunk.js",
+    "static/media/movie-bg1.jpg": "/mironhesan.github.io/movie-application/static/media/movie-bg1.fc58a606a466ab34583b.jpg",
+    "index.html": "/mironhesan.github.io/movie-application/index.html",
+    "static/media/icon-category-movie.svg": "/mironhesan.github.io/movie-application/static/media/icon-category-movie.6861d0ce9036ac864b87dc5aff6570c3.svg",
+    "static/media/icon-nav-bookmark.svg": "/mironhesan.github.io/movie-application/static/media/icon-nav-bookmark.c28318609befdd68729582b682dc4089.svg",
+    "static/media/icon-nav-movies.svg": "/mironhesan.github.io/movie-application/static/media/icon-nav-movies.53e6c7af153598af7a622f0153ec099c.svg",
+    "static/media/icon-nav-home.svg": "/mironhesan.github.io/movie-application/static/media/icon-nav-home.8f8e61735670d7c80c59a9a596e4d2af.svg",
+    "static/media/icon-search.svg": "/mironhesan.github.io/movie-application/static/media/icon-search.aa928440138d62c2b59e41719956797c.svg",
+    "static/media/icon-nav-tv-series.svg": "/mironhesan.github.io/movie-application/static/media/icon-nav-tv-series.b89eb7c34cca597d20efb78937561b28.svg",
+    "static/media/icon-category-tv.svg": "/mironhesan.github.io/movie-application/static/media/icon-category-tv.75c9208553d35303e2f1b61b511ab387.svg",
+    "main.b9132520.css.map": "/mironhesan.github.io/movie-application/static/css/main.b9132520.css.map",
+    "main.19a17d7b.js.map": "/mironhesan.github.io/movie-application/static/js/main.19a17d7b.js.map",
+    "787.66ff4c90.chunk.js.map": "/mironhesan.github.io/movie-application/static/js/787.66ff4c90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9132520.css",
+    "static/js/main.19a17d7b.js"
+  ]
+}
