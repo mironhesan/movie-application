@@ -1,4 +1,7 @@
-import { createBrowserRouter } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouteObject,
+} from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Error from "./pages/error";
@@ -6,7 +9,8 @@ import Movie from "./pages/movie";
 import TvSeries from "./pages/tv-series";
 import Bookmark from "./pages/bookmark";
 
-export const router = createBrowserRouter([
+// Define routes normally
+const routes: RouteObject[] = [
   {
     path: "/",
     element: <Login />,
@@ -15,7 +19,7 @@ export const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
-    errorElement: <Error />
+    errorElement: <Error />,
   },
   {
     path: "/login",
@@ -25,16 +29,26 @@ export const router = createBrowserRouter([
   {
     path: "/movies",
     element: <Movie />,
-    errorElement: <Error />
+    errorElement: <Error />,
   },
   {
     path: "/tv-series",
     element: <TvSeries />,
-    errorElement: <Error />
+    errorElement: <Error />,
   },
   {
     path: "/bookmarks",
     element: <Bookmark />,
-    errorElement: <Error />
+    errorElement: <Error />,
   },
-]);
+];
+
+// ✅ Set basename depending on environment
+const basename =
+  process.env.NODE_ENV === "production"
+    ? "/movie-application"
+    : "/";
+
+export const router = createBrowserRouter(routes, {
+  basename,
+});
